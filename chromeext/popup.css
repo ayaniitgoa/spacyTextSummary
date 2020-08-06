@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+  width: 40rem;
+  min-height: 33rem;
+  background-color: #070d17 !important;
+}
+
+.container-custom {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+}
+
+.text-area-text {
+  width: 100%;
+  min-height: 16rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border: solid 7px #c6d3e7;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-header {
+  position: relative;
+
+  color: #11ece5;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.button-submit {
+  background-color: #c6d3e7 !important;
+  font-family: 'Nunito', sans-serif;
+}
+
+.summary-box-header {
+  color: #11ece5;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.after-summary-div {
+  color: black;
+}
+
+.summary-box {
+  width: 100%;
+  height: 10rem;
+  overflow-y: scroll;
+  /* border: solid 7px #c6d3e7; */
+  padding: 5px;
+  background-color: white;
+}
+
+#entire-summary-div {
+  display: none;
+}
+
+#get-button {
+  display: none;
+}
+
+.url-text {
+  color: #11ece5;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+#get-url {
+  display: none;
+}
+
+#error {
+  display: none;
+}
